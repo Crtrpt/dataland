@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="352pt" height="206pt" viewBox="0.00 0.00 352.14 205.80">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 201.8)">
+<title>G</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-201.8 348.1392,-201.8 348.1392,4 -4,4"/>
+<!-- redis -->
+<g id="node1" class="node">
+<title>redis</title>
+<ellipse fill="none" stroke="#000000" cx="29.8057" cy="-179.8" rx="29.6127" ry="18"/>
+<text text-anchor="middle" x="29.8057" y="-175.6" font-family="Times,serif" font-size="14.00" fill="#000000">redis</text>
+</g>
+<!-- dataland -->
+<g id="node2" class="node">
+<title>dataland</title>
+<ellipse fill="none" stroke="#000000" cx="151.8057" cy="-106.8" rx="44.0002" ry="18"/>
+<text text-anchor="middle" x="151.8057" y="-102.6" font-family="Times,serif" font-size="14.00" fill="#000000">dataland</text>
+</g>
+<!-- redis&#45;&gt;dataland -->
+<g id="edge1" class="edge">
+<title>redis-&gt;dataland</title>
+<path fill="none" stroke="#000000" d="M51.0565,-167.0844C69.5745,-156.0039 96.7489,-139.7438 118.2102,-126.9023"/>
+<polygon fill="#000000" stroke="#000000" points="120.2321,-129.7712 127.0162,-121.6331 116.6379,-123.7644 120.2321,-129.7712"/>
+</g>
+<!-- dashboard -->
+<g id="node6" class="node">
+<title>dashboard</title>
+<ellipse fill="none" stroke="#000000" cx="151.8057" cy="-18" rx="50.9464" ry="18"/>
+<text text-anchor="middle" x="151.8057" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">dashboard</text>
+</g>
+<!-- dataland&#45;&gt;dashboard -->
+<g id="edge5" class="edge">
+<title>dataland-&gt;dashboard</title>
+<path fill="none" stroke="#000000" d="M151.8057,-88.4006C151.8057,-76.2949 151.8057,-60.2076 151.8057,-46.4674"/>
+<polygon fill="#000000" stroke="#000000" points="155.3058,-46.072 151.8057,-36.072 148.3058,-46.0721 155.3058,-46.072"/>
+<text text-anchor="middle" x="234.3238" y="-58.2" font-family="Times,serif" font-size="14.00" fill="#000000">req/res | sub/pub  -&gt; dataSQL</text>
+</g>
+<!-- mysql -->
+<g id="node3" class="node">
+<title>mysql</title>
+<ellipse fill="none" stroke="#000000" cx="111.8057" cy="-179.8" rx="34.7903" ry="18"/>
+<text text-anchor="middle" x="111.8057" y="-175.6" font-family="Times,serif" font-size="14.00" fill="#000000">mysql</text>
+</g>
+<!-- mysql&#45;&gt;dataland -->
+<g id="edge2" class="edge">
+<title>mysql-&gt;dataland</title>
+<path fill="none" stroke="#000000" d="M121.4886,-162.1287C126.2195,-153.495 132.0109,-142.9256 137.2597,-133.3466"/>
+<polygon fill="#000000" stroke="#000000" points="140.3374,-135.0132 142.0734,-124.5615 134.1986,-131.6494 140.3374,-135.0132"/>
+</g>
+<!-- mqtt -->
+<g id="node4" class="node">
+<title>mqtt</title>
+<ellipse fill="none" stroke="#000000" cx="192.8057" cy="-179.8" rx="28.991" ry="18"/>
+<text text-anchor="middle" x="192.8057" y="-175.6" font-family="Times,serif" font-size="14.00" fill="#000000">mqtt</text>
+</g>
+<!-- mqtt&#45;&gt;dataland -->
+<g id="edge3" class="edge">
+<title>mqtt-&gt;dataland</title>
+<path fill="none" stroke="#000000" d="M183.0893,-162.5C178.2082,-153.8093 172.1869,-143.0885 166.7346,-133.3807"/>
+<polygon fill="#000000" stroke="#000000" points="169.6859,-131.4879 161.7372,-124.4829 163.5826,-134.9158 169.6859,-131.4879"/>
+</g>
+<!-- clickhouse -->
+<g id="node5" class="node">
+<title>clickhouse</title>
+<ellipse fill="none" stroke="#000000" cx="291.8057" cy="-179.8" rx="52.1675" ry="18"/>
+<text text-anchor="middle" x="291.8057" y="-175.6" font-family="Times,serif" font-size="14.00" fill="#000000">clickhouse</text>
+</g>
+<!-- clickhouse&#45;&gt;dataland -->
+<g id="edge4" class="edge">
+<title>clickhouse-&gt;dataland</title>
+<path fill="none" stroke="#000000" d="M262.7977,-164.6744C241.1617,-153.3927 211.4587,-137.9048 188.2244,-125.7897"/>
+<polygon fill="#000000" stroke="#000000" points="189.833,-122.6813 179.3478,-121.1612 186.5965,-128.8882 189.833,-122.6813"/>
+</g>
+</g>
+</svg>
