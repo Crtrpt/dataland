@@ -17,6 +17,7 @@ Data Aggregation SQL Platform 数据聚合平台 提供统一的接口给前端�
 |udp| ---|
 |file| ---|
 |grpc| ---|
+|dataland| ---|
 
 
 
